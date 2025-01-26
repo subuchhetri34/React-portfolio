@@ -1,5 +1,5 @@
 import React from "react";
-import cafemenu from "../assets/portfolio/cafemenu.png";
+import jobhiring from "../assets/portfolio/job_hiring_post.jpg";
 import regform from "../assets/portfolio/regform.png";
 import surveyform from "../assets/portfolio/surveyform.png";
 
@@ -7,7 +7,7 @@ const Portfolio = () => {
   const portfolios = [
     {
         id:1,
-        src:cafemenu
+        src:jobhiring
     },
     {
         id:4,
