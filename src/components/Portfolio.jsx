@@ -1,7 +1,7 @@
 import React from "react";
 import jobhiring from "../assets/portfolio/job_hiring_post.jpg";
-import regform from "../assets/portfolio/regform.png";
-import surveyform from "../assets/portfolio/surveyform.png";
+import cafemenu from "../assets/portfolio/cafemenu.png";
+import ideathon from "../assets/portfolio/ideathon-femtech.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -10,12 +10,12 @@ const Portfolio = () => {
         src:jobhiring
     },
     {
-        id:4,
-        src:regform
+        id:2,
+        src:cafemenu
     },
     {
-        id:5,
-        src:surveyform
+        id:3,
+        src:ideathon
     },
   ];
 
@@ -29,7 +29,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my Responsive Web Design practice session from freeCodeCamp</p>
+          <p className="py-6">Check out these UI/UX Design I did using Adobe Illustrator and Figma.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -38,16 +38,9 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 w-full h-full object-cover"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
-              </div>
+              
             </div>
           ))}
         </div>
